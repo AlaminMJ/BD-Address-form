@@ -15,7 +15,7 @@ body{
     background-color: rgb(7, 89, 161);
 }
 .container{
-    width:800px;
+    width:50%;
     padding: 40px;
     background-color: #ffffff;
     box-shadow: 5px 10px 10px rgba(0,0,0,0.3);
@@ -57,4 +57,14 @@ option{
     padding: 10px 0;
     display: block;
     height: 30px;
+}
+
+@media screen and (max-width: 768px) {
+    .container{
+        width:80%;
+        padding: 40px;
+  
+    }
+
+    
 }
